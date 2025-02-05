@@ -1,0 +1,272 @@
+<saw:report xmlns:saw="com.siebel.analytics.web/report/v1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:sawx="com.siebel.analytics.web/expression/v1.1" xmlVersion="201201160">
+   <saw:criteria xsi:type="saw:simpleCriteria" subjectArea="&quot;Inventory-Housekeeping Management&quot;" withinHierarchy="true">
+      <saw:columns>
+         <saw:column xsi:type="saw:regularColumn" columnID="c385d91456c798777">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Property Details"."Property"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="ce7044982fde4d645">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Room"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c567314461089a7a4">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet No"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c18bd73a1cf6b3616">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Auto Generated"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cf16bf1e174508a8a">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Codes"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c6cc3f0ca285cfd17">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Room Type"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c080ce8ef2100081a">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Room Status"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cbaf3fec4e7febd20">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Front Office Status"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c91297b099c567cb8">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Day Section"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cbd1d217c3db942ff">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Evening Section"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c56e1aeebef4e2e3d">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Rooms"."Turn Down"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cc64373d5e37a230f">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheet-Room Details"."Room Credits"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c9d657eddf84eea52">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Guest Details"."Title"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c5f881cdde3649872">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Guest Name"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cf3edc2d2f21f49bb">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Membership Type"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cf8c2854fcc3cbb6e">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Membership Level Desc"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cbb7a2fe2e04dbca9">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Arrival Date"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c112c5e8853ea0afa">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Arrival Time"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c07ab11f500dfa11e">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Departure Date"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c73c208d7d8760787">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Departure Time"</sawx:expr></saw:columnFormula>
+            <saw:displayFormat>
+               <saw:formatSpec suppress="suppress" wrapText="true"/></saw:displayFormat>
+            <saw:columnHeading>
+               <saw:displayFormat>
+                  <saw:formatSpec/></saw:displayFormat></saw:columnHeading></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cb94008b9091068b6">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Cleaning Time"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c2d23d15fe1c539cc">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Room Features"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c40d0e843badcd42d">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Specials"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c6899a6cf4218c381">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Reservation Item Inventory"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="ca6789bd39e0849ec">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Reservation Details"."Housekeeping Traces"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c97c712be63e585c6">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheet-Room Details"."Tasks"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c764045319be829a2">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheet-Room Details"."Room Instructions"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="c2346ab661489fa44">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Attendant Details"."Attendant Code Name"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="cfe7fe43ca6495fca">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">"Attendant Details"."Attendant Instructions"</sawx:expr></saw:columnFormula></saw:column>
+         <saw:column xsi:type="saw:regularColumn" columnID="ca97c5f7e3b0364b1">
+            <saw:columnFormula>
+               <sawx:expr xsi:type="sawx:sqlExpression">' '</sawx:expr></saw:columnFormula>
+            <saw:tableHeading>
+               <saw:caption fmt="text" captionID="kcap20244291319_3">
+                  <saw:text>Business Date</saw:text></saw:caption></saw:tableHeading>
+            <saw:columnHeading>
+               <saw:caption fmt="text" captionID="kcap20244291319_4">
+                  <saw:text>Room Check</saw:text></saw:caption></saw:columnHeading></saw:column></saw:columns></saw:criteria>
+   <saw:views currentView="0">
+      <saw:view xsi:type="saw:compoundView" name="compoundView!1">
+         <saw:cvTable>
+            <saw:cvRow>
+               <saw:cvCell viewName="tableView!1"/></saw:cvRow></saw:cvTable></saw:view>
+      <saw:view xsi:type="saw:tableView" name="tableView!1" scrollingEnabled="false" repeat="false">
+         <saw:edges>
+            <saw:edge axis="page" showColumnHeader="true"/>
+            <saw:edge axis="section" insertPageBreak="false" showBlankRows="false" headings="left">
+               <saw:displayFormat>
+                  <saw:formatSpec wrapText="true"/></saw:displayFormat>
+               <saw:edgeLayers>
+                  <saw:edgeLayer type="column" columnID="c567314461089a7a4" insertPageBreak="true"/></saw:edgeLayers></saw:edge>
+            <saw:edge axis="row" showColumnHeader="true">
+               <saw:edgeLayers>
+                  <saw:edgeLayer type="column" columnID="c385d91456c798777"/>
+                  <saw:edgeLayer type="column" columnID="c2346ab661489fa44"/>
+                  <saw:edgeLayer type="column" columnID="cfe7fe43ca6495fca"/>
+                  <saw:edgeLayer type="column" columnID="cf16bf1e174508a8a"/>
+                  <saw:edgeLayer type="column" columnID="c97c712be63e585c6"/>
+                  <saw:edgeLayer type="column" columnID="ce7044982fde4d645"/>
+                  <saw:edgeLayer type="column" columnID="cbaf3fec4e7febd20"/>
+                  <saw:edgeLayer type="column" columnID="c91297b099c567cb8"/>
+                  <saw:edgeLayer type="column" columnID="cbd1d217c3db942ff"/>
+                  <saw:edgeLayer type="column" columnID="c56e1aeebef4e2e3d"/>
+                  <saw:edgeLayer type="column" columnID="c9d657eddf84eea52"/>
+                  <saw:edgeLayer type="column" columnID="c5f881cdde3649872"/>
+                  <saw:edgeLayer type="column" columnID="c6cc3f0ca285cfd17"/>
+                  <saw:edgeLayer type="column" columnID="c18bd73a1cf6b3616"/>
+                  <saw:edgeLayer type="column" columnID="cbb7a2fe2e04dbca9"/>
+                  <saw:edgeLayer type="column" columnID="c112c5e8853ea0afa"/>
+                  <saw:edgeLayer type="column" columnID="c07ab11f500dfa11e"/>
+                  <saw:edgeLayer type="column" columnID="c73c208d7d8760787"/>
+                  <saw:edgeLayer type="column" columnID="c080ce8ef2100081a"/>
+                  <saw:edgeLayer type="column" columnID="c764045319be829a2"/>
+                  <saw:edgeLayer type="column" columnID="cc64373d5e37a230f"/>
+                  <saw:edgeLayer type="column" columnID="cb94008b9091068b6"/>
+                  <saw:edgeLayer type="column" columnID="c2d23d15fe1c539cc"/>
+                  <saw:edgeLayer type="column" columnID="c40d0e843badcd42d"/>
+                  <saw:edgeLayer type="column" columnID="cf3edc2d2f21f49bb"/>
+                  <saw:edgeLayer type="column" columnID="cf8c2854fcc3cbb6e"/>
+                  <saw:edgeLayer type="column" columnID="ca6789bd39e0849ec"/>
+                  <saw:edgeLayer type="column" columnID="ca97c5f7e3b0364b1"/>
+                  <saw:edgeLayer type="column" columnID="c6899a6cf4218c381"/>
+                  <saw:edgeLayer type="column" columnID="ca75c72bd77364da8"/></saw:edgeLayers></saw:edge>
+            <saw:edge axis="column" showColumnHeader="rollover"/></saw:edges></saw:view></saw:views>
+   <saw:prompts scope="report" subjectArea="&quot;Inventory-Housekeeping Management&quot;" layout="horizontal">
+      <saw:promptStep>
+         <saw:individualPrompts>
+            <saw:prompt xsi:type="saw:columnFilterPrompt" columnID="c29" subjectArea="&quot;Inventory-Housekeeping Management&quot;" required="false">
+               <saw:formula>
+                  <sawx:expr xsi:type="sawx:sqlExpression">"Property Details"."Property"</sawx:expr></saw:formula>
+               <saw:promptOperator op="in"/>
+               <saw:promptUIControl xsi:type="saw:browse" maxChoices="-1" includeAllChoices="false">
+                  <saw:customWidth width="120" using="custompixels"/></saw:promptUIControl>
+               <saw:promptDefaultValues type="reportDefault" usingCodeValue="false"/>
+               <saw:constrainPrompt type="none" autoSelectValue="default"/>
+               <saw:setPromptVariables>
+                  <saw:setPromptVariable location="value" type="none" variableFormula=""/></saw:setPromptVariables>
+               <saw:promptSource xsi:type="saw:allChoices"/></saw:prompt>
+            <saw:prompt xsi:type="saw:columnFilterPrompt" columnID="c30" subjectArea="&quot;Inventory-Housekeeping Management&quot;" required="true">
+               <saw:formula>
+                  <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Date"</sawx:expr></saw:formula>
+               <saw:promptOperator op="in"/>
+               <saw:promptUIControl xsi:type="saw:calendar">
+                  <saw:customWidth width="120" using="custompixels"/></saw:promptUIControl>
+               <saw:promptDefaultValues type="reportDefault" usingCodeValue="false"/>
+               <saw:constrainPrompt type="none" autoSelectValue="default"/>
+               <saw:setPromptVariables>
+                  <saw:setPromptVariable location="value" type="none" variableFormula=""/></saw:setPromptVariables>
+               <saw:promptSource xsi:type="saw:allChoices"/></saw:prompt>
+            <saw:prompt xsi:type="saw:columnFilterPrompt" columnID="c32" subjectArea="&quot;Inventory-Housekeeping Management&quot;" required="false">
+               <saw:formula>
+                  <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Codes"</sawx:expr></saw:formula>
+               <saw:promptOperator op="in"/>
+               <saw:promptUIControl xsi:type="saw:browse" maxChoices="-1" includeAllChoices="false">
+                  <saw:customWidth width="120" using="custompixels"/></saw:promptUIControl>
+               <saw:promptDefaultValues type="reportDefault" usingCodeValue="false"/>
+               <saw:constrainPrompt type="specificPrompts" autoSelectValue="default">
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Property Details"."Property"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Date"</sawx:expr></saw:constrainedByFormula></saw:constrainPrompt>
+               <saw:setPromptVariables>
+                  <saw:setPromptVariable location="value" type="none" variableFormula=""/></saw:setPromptVariables>
+               <saw:promptSource xsi:type="saw:allChoices"/></saw:prompt>
+            <saw:prompt xsi:type="saw:columnFilterPrompt" columnID="c33" subjectArea="&quot;Inventory-Housekeeping Management&quot;" required="false">
+               <saw:formula>
+                  <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet No"</sawx:expr></saw:formula>
+               <saw:promptOperator op="in"/>
+               <saw:promptUIControl xsi:type="saw:browse" maxChoices="-1" includeAllChoices="false">
+                  <saw:customWidth width="120" using="custompixels"/></saw:promptUIControl>
+               <saw:promptDefaultValues type="reportDefault" usingCodeValue="false"/>
+               <saw:constrainPrompt type="specificPrompts" autoSelectValue="default">
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Property Details"."Property"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Date"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Codes"</sawx:expr></saw:constrainedByFormula></saw:constrainPrompt>
+               <saw:setPromptVariables>
+                  <saw:setPromptVariable location="value" type="none" variableFormula=""/></saw:setPromptVariables>
+               <saw:promptSource xsi:type="saw:allChoices"/></saw:prompt>
+            <saw:prompt xsi:type="saw:columnFilterPrompt" columnID="c34" subjectArea="&quot;Inventory-Housekeeping Management&quot;" required="false">
+               <saw:formula>
+                  <sawx:expr xsi:type="sawx:sqlExpression">"Attendant Details"."Attendant Code Name"</sawx:expr></saw:formula>
+               <saw:promptOperator op="in"/>
+               <saw:promptUIControl xsi:type="saw:browse" maxChoices="-1" includeAllChoices="false">
+                  <saw:customWidth width="120" using="custompixels"/></saw:promptUIControl>
+               <saw:promptDefaultValues type="reportDefault" usingCodeValue="false"/>
+               <saw:constrainPrompt type="specificPrompts" autoSelectValue="default">
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Property Details"."Property"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Date"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet Codes"</sawx:expr></saw:constrainedByFormula>
+                  <saw:constrainedByFormula>
+                     <sawx:expr xsi:type="sawx:sqlExpression">"Task Sheets"."Task Sheet No"</sawx:expr></saw:constrainedByFormula></saw:constrainPrompt>
+               <saw:setPromptVariables>
+                  <saw:setPromptVariable location="value" type="none" variableFormula=""/></saw:setPromptVariables>
+               <saw:promptSource xsi:type="saw:allChoices"/></saw:prompt></saw:individualPrompts>
+         <saw:customWidth width="120" using="custompixels"/></saw:promptStep></saw:prompts></saw:report>
